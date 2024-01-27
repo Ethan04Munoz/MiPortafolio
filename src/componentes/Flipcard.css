@@ -1,0 +1,48 @@
+.flipcard {
+    height: 200px;
+    width: 100px;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    display: flex; /* Nuevo: Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.flipcard:hover .cardFront{
+    transform: rotateX(-180deg);
+}
+
+.flipcard:hover .cardBack{
+    transform: rotateX(0deg);
+}
+
+.cardFront, .cardBack {
+    height: 100%;
+    width: 100%;
+    position: relative; /* Cambiado de absolute a relative */
+    backface-visibility: hidden;
+    transition: 0.5s;
+    position: relative; /* Se mantiene la posición relativa */
+    display: flex; /* Utiliza flexbox para el alineamiento del contenido */
+    justify-content: center;
+    align-items: center;
+}
+
+.cardFront {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-color: #000000;
+    transform: rotateX(0deg);
+}
+
+.cardBack {
+    background-color: #000000;
+    transform: rotateX(180deg);
+    color: #ffffff;
+    text-align: center;
+        /* Coloca el contenido de la tarjeta de espaldas al frente */
+        position: absolute;
+        top: 0;
+        left: 0;
+}
