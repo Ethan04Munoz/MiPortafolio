@@ -1,0 +1,14 @@
+.letraE3D{
+    text-align: center;
+    font-weight: 700;
+    font-size: 200px;
+    color: #d93a36;
+    text-shadow: 0 2px 0 #aa2421,
+    0 4px 0 #8e1e1b,
+    0 6px 0 #711816,
+    0 8px 0 #551210,
+    0 10px 0 #430e0c,
+    0 12px 0 #330b09,
+    3px 12px 15px rgba(0,0,0,0.1),
+    3px 12px 5px rgba(0,0,0,0.3);
+}
