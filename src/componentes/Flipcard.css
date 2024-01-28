@@ -1,6 +1,6 @@
 .flipcard {
-    height: 200px; /* Altura fija de la tarjeta */
-    width: 100px; /* Ancho fijo de la tarjeta */
+    height: 400px; /* Altura fija de la tarjeta */
+    width: 250px; /* Ancho fijo de la tarjeta */
     perspective: 1000px; /* Profundidad de la perspectiva para el efecto 3D */
 }
 
@@ -12,7 +12,7 @@
     height: 100%;
     width: 100%;
     backface-visibility: hidden; /* Oculta la cara trasera cuando se gira */
-    transition: transform 0.6s; /* Transición suave para el giro */
+    transition: transform 0.4s; /* Transición suave para el giro */
 }
 
 .cardFront {

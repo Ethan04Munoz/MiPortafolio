@@ -1,8 +1,10 @@
 .grid-container {
-    width: 70%;
-    margin-left: 15%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
+}
+
+body {
+    background: #252525;
 }
