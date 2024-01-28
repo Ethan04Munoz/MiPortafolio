@@ -1,0 +1,15 @@
+.BarraLateral{
+    width: 10vw;
+    text-align: center;
+}
+
+.BarraLateral h1 {
+    color: #ffffff;
+    text-shadow:
+    1px 1px 0 #551210,   
+    2px 2px 0 #430e0c,  
+    3px 3px 0 #330b09,  
+    3px 3px 10px rgba(0,0,0,0.1),
+    3px 3px 5px rgba(0,0,0,0.3);  
+    font-size: 1.5rem;
+}   
