@@ -1,39 +1,39 @@
 .flipcard {
-    height: 400px; /* Altura fija de la tarjeta */
-    width: 250px; /* Ancho fijo de la tarjeta */
-    perspective: 1000px; /* Profundidad de la perspectiva para el efecto 3D */
+    height: 550px; 
+    width: 350px; 
+    perspective: 1500px; 
 }
 
 /* Estilos comunes para el frente y dorso de la tarjeta */
 .cardFront, .cardBack {
-    position: absolute; /* Posición absoluta dentro de su contenedor .flipcard */
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    backface-visibility: hidden; /* Oculta la cara trasera cuando se gira */
-    transition: transform 0.4s; /* Transición suave para el giro */
+    backface-visibility: hidden;
+    transition: transform 0.4s;
 }
 
 .cardFront {
     background-position: center;
     background-size: cover;
     background-color: #000000;
-    transform: rotateX(0deg); /* Inicialmente se muestra el frente */
+    transform: rotateX(0deg); 
 }
 
 .cardBack {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    transform: rotateX(180deg); /* Inicialmente se oculta el dorso */
+    transform: rotateX(180deg); 
     position: absolute;
 }
 
 .flipcard:hover .cardFront {
-    transform: rotateX(-180deg); /* Gira el frente en hover */
+    transform: rotateX(-180deg);
 }
 
 .flipcard:hover .cardBack {
-    transform: rotateX(0deg); /* Muestra el dorso en hover */
+    transform: rotateX(0deg);
 }
