@@ -6,6 +6,11 @@ function BarraLateral(){
         <div className="BarraLateral">
             <div class="letraE3D">E</div>
             <h1>Ethan Muñoz - Desarrollador Web</h1>
+            <a href="/#/sobremi">
+                <div>
+                Sobre mí
+                </div>
+            </a>
             <a href="/#/proyectos">
                 <div>
                 Proyectos
@@ -16,9 +21,9 @@ function BarraLateral(){
                 Tecnologías
                 </div>
             </a>
-            <a href="/#/sobremi">
+            <a href="/#/curriculum">
                 <div>
-                Sobre mí
+                Curriculum
                 </div>
             </a>
         </div>

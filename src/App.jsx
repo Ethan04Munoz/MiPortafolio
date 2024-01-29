@@ -4,6 +4,7 @@ import Proyectos from './Proyectos';
 import BarraLateral from './BarraLateral';
 import Tecnologias from './Tecnologías';
 import SobreMi from './Sobre mi';
+import Curriculum from './Curriculum';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/proyectos" element={<Proyectos/>}/>
         <Route path='/tecnologias' element={<Tecnologias/>}/>
         <Route path="/sobremi" element={<SobreMi/>}/>
+        <Route path="/curriculum" element={<Curriculum/>}/>
         <Route path='/' element={<SobreMi/>}/>
       </Routes>
       </HashRouter>
