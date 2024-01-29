@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import {HashRouter,Routes,Route} from "react-router-dom";
 import Proyectos from './Proyectos';
-import BarraLateral from './BarraLateral';
 import Tecnologias from './Tecnologías';
 import SobreMi from './Sobre mi';
 import Curriculum from './Curriculum';

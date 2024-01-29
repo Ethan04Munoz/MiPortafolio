@@ -1,5 +1,5 @@
 import './App.css'
-import BarraLateral from './BarraLateral';
+import BarraLateral from './componentes/BarraLateral';
 import Flipcard from './componentes/Flipcard';
 
 function Curriculum() {
