@@ -1,4 +1,5 @@
 import './App.css'
+import BarraInferior from './componentes/BarraInferior';
 import BarraLateral from './componentes/BarraLateral';
 import Flipcard from './componentes/Flipcard';
 
@@ -65,6 +66,14 @@ function Proyectos() {
                 cardContent="Utilizando la API de TMDB, React, CSS3 y LocalStorage
                     desarrollé un juego de Quiz de cine donde los usuarios puedan poner a prueba sus conocimientos sobre películas, 
                     actores, directores, etc. Utilizo la API para generar preguntas y respuestas."
+                cardLinkRoute="https://facebook.com"
+                cardLinkText="Visitar"
+            /> 
+            <Flipcard 
+                imgUrl="https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1600&h=1067"
+                cardTitle="Recetario"
+                cardContent="Utilizando la React, CSS3 y APIs desarrolle una herramienta que permite a los 
+                    usuarios ingresar ingredientes que tienen en casa y obtener posibles recetas que pueden elaborar."
                 cardLinkRoute="https://facebook.com"
                 cardLinkText="Visitar"
             /> 
