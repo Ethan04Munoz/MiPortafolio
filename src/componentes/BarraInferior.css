@@ -1,0 +1,26 @@
+.BarraInferior{
+    background: #3f3f3f;
+    position: fixed;
+    bottom: 0;
+    left: 35vw;
+    width: 30vw;
+    border-radius: 6px 6px 0px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 14px;
+    transition: all 0.3s;
+}
+
+.BarraInferior:hover{
+    box-shadow: 5px 5px 5px 0 rgba(106, 166, 255, 0.336), /* Sombra externa */
+                -5px -3px 5px 0 rgba(106, 166, 255, 0.336);
+}
+
+.BarraInferior img {
+    width: 1.5vw;
+    transition: all 0.3s;
+}
+
+.BarraInferior:hover img {
+    width: 2vw;
+}   
