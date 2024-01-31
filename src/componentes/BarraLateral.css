@@ -1,5 +1,13 @@
 .BarraLateral{
     text-align: center;
+    background: #333333;
+    border-right: solid 1px rgba(106, 166, 255, 0.192);
+    transition: all 0.3s;
+}
+
+.BarraLateral:hover{
+    box-shadow: 1px 1px 1px 0 rgba(106, 166, 255, 0.336), /* Sombra externa */
+    -2px -2px 2px 0 rgba(106, 166, 255, 0.336);
 }
 
 .BarraLateral h1 {
