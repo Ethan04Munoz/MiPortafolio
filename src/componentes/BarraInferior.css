@@ -30,3 +30,23 @@
     justify-items: center;
     align-items: center;
 }
+
+.barraInferiorImg1:hover{
+
+}
+
+.barraInferiorImg2:hover{
+
+}
+
+.barraInferiorImg3:hover{
+
+}
+
+.barraInferiorImg4Vespañol:hover{
+    box-shadow: 0px 0px 10px 0px rgba(108, 255, 145, 0.336)
+}
+
+.barraInferiorImg4Vingles:hover{
+    box-shadow: 0px 0px 10px 0px rgba(255, 108, 108, 0.336)
+}
