@@ -77,6 +77,15 @@ function Proyectos() {
                 cardLinkRoute="https://facebook.com"
                 cardLinkText="Visitar"
             /> 
+            <Flipcard 
+                imgUrl="https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1600&h=1067"
+                cardTitle="Expense tracker"
+                cardContent="Utilizando la React, CSS3, Storybook.js y LocalStorage
+                    construí una página web que te permite ingresar tus gastos, crear categorías y 
+                    observar en que se van tus gastos de manera gráfica."
+                cardLinkRoute="https://facebook.com"
+                cardLinkText="Visitar"
+            /> 
         </div>
     </div>
   )
