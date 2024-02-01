@@ -86,6 +86,15 @@ function Proyectos() {
                 cardLinkRoute="https://facebook.com"
                 cardLinkText="Visitar"
             /> 
+            <Flipcard 
+                imgUrl="https://static.nationalgeographic.es/files/styles/image_3200/public/75552.ngsversion.1422285553360.jpg?w=1600&h=1067"
+                cardTitle="Feliz cumpleaños!"
+                cardContent="Utilizando la React y CSS3 desarrollé una página web donde con cada toque en un pastel se añade una vela.
+                    Para disminuir la cantidad de velas, tienes que soplar las velas. Finalmente, con un botón muestra un mensaje felicitandote
+                     por tus x años."
+                cardLinkRoute="https://facebook.com"
+                cardLinkText="Visitar"
+            /> 
         </div>
         <BarraInferior/>
     </div>
