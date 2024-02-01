@@ -6,7 +6,7 @@
     width: 30vw;
     border-radius: 6px 6px 0px 0px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 14px;
     transition: all 0.3s;
 }
@@ -24,3 +24,9 @@
 .BarraInferior:hover img {
     width: 2vw;
 }   
+
+.BarraInferior div {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
