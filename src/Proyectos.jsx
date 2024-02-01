@@ -87,6 +87,7 @@ function Proyectos() {
                 cardLinkText="Visitar"
             /> 
         </div>
+        <BarraInferior/>
     </div>
   )
 }
