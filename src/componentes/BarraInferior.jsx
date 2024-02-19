@@ -1,9 +1,13 @@
 import './BarraInferior.css';
 import { useState } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 
 let espanolImg = '../src/img/español-Rounded.png';
 let inglesImg = '../src/img/ingles-Rounded.svg';
 function BarraInferior(){
+    const language = useSelector(state => state.language.language);
+    const dispatch = useDispatch();
+
     // Inicializar el estado con una de las imágenes
     const [imagenActual, setImagenActual] = useState(espanolImg);
     const [claseImagenIdioma, setClaseImagenIdioma] = useState('barraInferiorImg4Vespañol')
@@ -12,6 +16,7 @@ function BarraInferior(){
     const cambiarIdioma = () => {
         setImagenActual(imagenActual === espanolImg ? inglesImg : espanolImg);
         setClaseImagenIdioma(claseImagenIdioma === 'barraInferiorImg4Vespañol' ? 'barraInferiorImg4Vingles' : 'barraInferiorImg4Vespañol');
+        dispatch({ type: 'CHANGE_LANGUAGE' });
     };
     return (
         <div className="BarraInferior">
